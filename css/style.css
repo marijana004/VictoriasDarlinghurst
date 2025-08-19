@@ -1,0 +1,1978 @@
+@font-face {
+        font-family: 'Gilroy';
+        src: url('Gilroy-Semibold.eot');
+        src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+            url('Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+            url('Gilroy-Semibold.woff') format('woff'),
+            url('Gilroy-Semibold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F39C12;
+    border-radius: 10px;
+}
+
+.welcome-section{
+    background-image: linear-gradient(to bottom, rgba(14, 19, 23, 0), rgba(14, 19, 23, 1)), url(../images/hero.png);
+    background-size: cover;
+    height: 960px;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.welcome-section .reservations-btn{
+    color: #fff;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 15px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 100px;
+    letter-spacing: 0.7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.5s ease;
+    position: absolute;
+    right: 15px;
+    vertical-align: middle;
+}
+
+.welcome-section .reservations-btn:hover{
+    color: #0E1317;
+    background-color: #fff;
+}
+
+
+.welcome-section .logo-header{
+    display: inline-block;
+    padding-top: 8.7px;
+    
+}
+.welcome-section #menu{
+    text-decoration: none;
+    text-align: center;
+}
+
+.welcome-section .menu{
+    text-transform: uppercase;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 13.5px;
+    height: 51px;
+
+}
+
+.welcome-section .menu li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.welcome-section .menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-section .menu li #main{
+    border-bottom: solid #fff 1px;
+}
+
+.welcome-section .menu li a:hover{
+    border-bottom: solid #fff 1px;
+
+}
+
+.welcome-section .hero-section{
+    color: #fff;
+    text-align: center;
+}
+
+.welcome-section .hero-section h3{
+    color: #F39C12;
+    font-family: 'Dancing Script';
+    font-size:60px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.welcome-section .hero-section h1{
+    font-family: 'Abril Fatface';
+    font-size: 100px;
+    margin-bottom: 70px;
+}
+
+.welcome-section .hero-section p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.features-section{
+    background-color: #0E1317;
+}
+.features-section h3{
+    text-align: center;
+    color: #F39C12;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.features-section h1 {
+    color: #232B35;
+    opacity: 20%;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 180px;
+    text-transform: uppercase;
+}
+
+.features-section h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    padding-bottom: 110px;
+    text-transform: uppercase;
+    margin-top: -140px;
+}
+
+.features-section .features-img .features-1 {
+    background-image: url(../images/features1.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 380px;
+    width: auto;
+
+}
+.features-section .features-img .features-2 {
+    background-image: url(../images/features2.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 380px;
+    width: auto;
+
+}
+.features-section .features-img .features-3 {
+    background-image: url(../images/features3.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 380px;
+    width: auto;
+
+}
+
+.features-section .features-txt{
+    color: #fff;
+    font-family: 'Abril Fatface';
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+
+.features-section .features-txt h4{
+    display: inline;
+    position: absolute;
+
+}
+
+.features-section .features-txt h4::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #fff;
+    transition: width .2s;
+}
+
+.features-section .features-txt h4:hover:after{
+    width: 100%;
+}
+
+
+.about-us-section {
+    background-color: #0E1317;
+    padding-bottom: 200px;
+}
+
+.about-us-section .left-sec{
+    background-image: url(../images/about-us1.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    width: auto;
+    height: 580px;
+}
+
+.about-us-section .right-sec {
+    background-image: url(../images/about-us2.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    width: auto;
+    height: 580px;
+}
+
+.about-us-section .mid-sec{
+    background-color: #161B21;
+    height: 640px;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.about-us-section .mid-sec h3{
+    text-align: center;
+    color: #F39C12;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+}
+
+.about-us-section .mid-sec h2{
+    color: #fff;
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.about-us-section .mid-sec p{
+    color: #fff;
+    font-family: 'Gilroy';
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 14px;
+    padding-bottom: 30px;
+}
+
+.about-us-section .mid-sec .about-us-btn{
+    color: #fff;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.about-us-section .mid-sec .about-us-btn:hover {
+    color: #ffffff;
+    background-color: #F39C12;
+    border: #F39C12 1px solid;
+    }
+
+.our-menu-section{
+    height: 652px;
+    background-color: #161B21;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.our-menu-section .menu1{
+    background-image: url(../images/menu1.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    width: auto;
+
+}
+
+.our-menu-section .menu2 {
+    background-image: url(../images/menu2.png);
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    width: auto;
+    margin-top: -29px;
+    transition: all 0.5s ease;
+}
+
+.our-menu-section .menu2 a {
+    text-decoration: none;
+}
+
+.our-menu-section .menu2:hover {
+    transform: scale(0.89);
+
+}
+
+.our-menu-section .menu3 {
+    background-image: url(../images/menu3.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-size: cover;
+    width: auto;
+    margin-top: -29px;
+    transition: all 0.5s ease;
+
+}
+
+.our-menu-section .menu3 a {
+    text-decoration: none;
+}
+
+.our-menu-section .menu3:hover {
+    transform: scale(0.89);
+
+}
+
+.our-menu-section .menu4 {
+    background-image: url(../images/menu4.png);
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-size: cover;
+    width: auto;
+
+}
+
+.our-menu-section h3 {
+    text-align: center;
+    color: #F39C12;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.our-menu-section h1 {
+    color: #232B35;
+    opacity: 20%;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 180px;
+    text-transform: uppercase;
+}
+
+.our-menu-section h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    padding-bottom: 110px;
+    margin-top: -140px;
+
+}
+
+.our-menu-section h4{
+    color: #fff;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 40px;
+}
+
+.cards-section{
+    background-color: #0E1317;
+    height: 770px;
+    padding-top: 300px;
+    color: #fff;
+}
+
+.cards-section #no-even{
+    width: 268px;
+    height: 335px;
+    background: linear-gradient(#161B21, #161B21) padding-box, linear-gradient(to bottom, rgba(243, 157, 18, 0), rgba(243, 157, 18, 1)) border-box;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out;
+}
+
+.cards-section #no-even:hover {
+    background: linear-gradient(#161B21, #161B21) padding-box, linear-gradient(to top, rgba(243, 157, 18, 0), rgba(243, 157, 18, 1)) border-box;
+
+}
+
+.cards-section #even{
+    width: 268px;
+    height: 335px;
+    background: linear-gradient(#161B21, #161B21) padding-box, linear-gradient(to top, rgba(243, 157, 18, 0), rgba(243, 157, 18, 1)) border-box;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out;
+}
+
+.cards-section #even:hover {
+    background: linear-gradient(#161B21, #161B21) padding-box, linear-gradient(to bottom, rgba(243, 157, 18, 0), rgba(243, 157, 18, 1)) border-box;
+}
+
+.cards-section .box h4{
+    text-align: center;
+    color: #F39C12;
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.cards-section .box h6 {
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+
+}
+
+.cards-section .box p {
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 17px;
+
+
+}
+
+.cards-section .box .p-1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cards-section .box .p-2 {
+    margin-bottom: 25px;
+}
+
+.cards-section .box .p-3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cards-section .box .p-4 {
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.cards-section .box .arrow-btn{
+    background-color: transparent;
+    display: inline;
+    text-decoration: none;
+    border-radius: 100px;
+    border: #fff solid 1px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 120px;
+    transition: all 0.5s ease;
+}
+
+
+.cards-section .box .arrow-btn path{
+    fill: #fff;
+}
+
+.cards-section .box .arrow-btn:hover {
+    background-color: #F39C12;
+    border-color: #F39C12;
+}
+
+
+.video-section{
+    background-image: linear-gradient(to bottom, rgba(14, 19, 23, 0.5), rgba(14, 19, 23, 0.5)), url(../images/victoria-bg.png);
+    background-size: cover;
+    height: 668px;
+
+}
+
+.video-section h1{
+    font-family: 'Abril Fatface';
+    font-size: 100px;
+    padding-bottom: 120px;
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.video-section img{
+    padding-left: 110px;
+    height: 50px;
+}
+
+.video-section p{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    position: absolute;
+
+}
+
+.video-section a .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+}
+
+.video-section a .modal-dialog .modal-content .modal-header{
+    border: none;
+}
+
+.video-section a .modal-dialog .modal-content .modal-header .close{
+    color: #fff;
+    padding-bottom: 0;
+    width: 20px;
+}
+
+.video-section a .modal-dialog .modal-content .modal-body iframe{
+    padding: 0;
+    margin-left: -15px;
+    border: none;
+}
+
+.video-section a .modal-dialog .modal-content .modal-header .close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    border: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.blog-section{
+    background-color: #0E1317;
+    margin-bottom: -200px;
+}
+
+.blog-section h3{
+    text-align: center;
+    color: #F39C12;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.blog-section h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    padding-bottom: 110px;
+}
+
+.blog-section .img-1{
+    background-image: url(../images/blog1.png);
+    width: auto;
+    height: 295px;
+}
+
+.blog-section .img-2 {
+    background-image: url(../images/blog2.png);
+    width: auto;
+    height: 295px;
+}
+
+.blog-section .img-3 {
+    background-image: url(../images/blog3.png);
+    width: auto;
+    height: 295px;
+}
+
+.blog-section .text-box{
+    width: auto;
+    background-color: #161B21;
+    color: #fff;
+}
+
+.blog-section .text-box h5{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Gilroy';  
+    margin-left: 25px;
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.blog-section .text-box h5::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #fff;
+    transition: width .2s;
+}
+
+.blog-section .text-box h5:hover:after {
+    width: 100%;
+}
+
+.blog-section .text-box h6 {
+    font-size: 10px;
+    font-family: 'Gilroy';
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    color: #F39C12;
+}
+
+.blog-section .text-box p {
+    font-size: 18px;
+    font-family: 'Gilroy';
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.blog-section .text-box a{
+    padding-left: 300px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.blog-section .reservation-form{
+    margin-top: 130px;
+    background-color: #161B21;
+}
+
+.blog-section .reservation-form h3{
+    color: #fff;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.blog-section .reservation-form h3 .special-word{
+    display: inline;
+    color: #F39C12;
+}
+
+.blog-section .reservation-form button{
+    color: #fff;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    margin-left: 450px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    border: solid 1px #fff;
+    transition: all 0.5s ease;
+}
+
+.blog-section .reservation-form button:hover {
+    background-color: #F39C12;
+    border-color: #F39C12;
+}
+
+.footer-section{
+    background-image: linear-gradient(to bottom, rgba(14, 19, 23, 0.95), rgba(14, 19, 23, 0.95)), url(../images/footer.png);
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+.blog-section .reservation-form .form-fields{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.blog-section .reservation-form .form-fields #full-name{
+    color: #8A8D90;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #8A8D90;
+    padding-bottom: 5px;
+    padding-right: 300px;
+    font-size: 15px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    outline: none;
+}
+
+.blog-section .reservation-form .form-fields #phone-number{
+    color: #8A8D90;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #8A8D90;
+    padding-bottom: 5px;
+    padding-right: 270px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    outline: none;
+}
+
+.blog-section .reservation-form .form-fields #number-of-people{
+    color: #8A8D90;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #8A8D90;
+    padding-bottom: 5px;
+    padding-right: 190px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    outline: none;
+    font-family: 'Gilroy';
+    background-color: #161B21;
+
+}
+
+.blog-section .reservation-form .form-fields #pick-a-date{
+    color: #8A8D90;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #8A8D90;
+    padding-bottom: 2px;
+    padding-right: 185px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    outline: none;
+
+}
+
+.blog-section .reservation-form .form-fields input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.blog-section .reservation-form .form-fields #pack-time{
+    color: #8A8D90;
+    font-family: 'Gilroy';
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #8A8D90;
+    padding-bottom: 5px;
+    padding-right: 182px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    outline: none;
+    font-family: 'Gilroy';
+    background-color: #161B21;
+}
+
+.footer-section h6{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.footer-section #col-2 {
+    text-align: end;
+
+}
+
+.footer-section p{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 15px;
+}
+
+.footer-section p svg{
+    margin-right: 7px;
+}
+
+.footer-section p span{
+    color: #F39C12;
+}
+
+
+.footer-section .follow-us-section{
+    text-align: center;
+}
+
+
+.footer-section .follow-us-section img{
+    margin-top: -70px;
+}
+
+.footer-section .follow-us-section .follow-us-icons a{
+    text-decoration: none;
+}
+
+.footer-section hr{
+    margin-top: 100px;
+    border-top: #fff solid 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer-section .info-section{
+    margin-left: 200px;
+    color: #fff;
+    font-family: 'Gilroy';
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    .about-us-section .mid-sec .about-us-btn {
+    font-size: 13px;}
+
+    .cards-section #no-even {
+        width: 220px;
+    }
+    
+    .cards-section #even {
+        width: 220px;
+    }
+
+    .cards-section .box h4 {
+        font-size: 17px;
+    }
+    
+    .cards-section .box h6 {
+        font-size: 15px;
+    }
+    
+    .cards-section .box p {
+        font-size: 13px;
+    }
+    
+    .cards-section .box .p-1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .cards-section .box .p-3 {
+        margin-bottom: 15px;
+    }
+    
+    .cards-section .box .p-4 {
+        margin-top: -25px;
+    }
+    
+    .cards-section .box .arrow-btn {
+        margin-left: 95px;
+    }
+
+    .our-menu-section h4 {
+        font-size: 30px;
+    }
+
+    .video-section h1 {
+        font-size: 80px;
+
+    }
+
+    .blog-section .text-box a {
+        padding-left: 240px;
+    }
+
+    .blog-section .text-box p {
+        font-size: 15px;
+    }
+    
+    .blog-section .reservation-form button {
+        margin-left: 365px;
+    }
+    
+    .blog-section .reservation-form .form-fields {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 180px;
+        margin-right: 30px;
+    }
+    
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 180px;
+    }
+    
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 115px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 115px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 115px;
+    }
+    .footer-section hr {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .footer-section .info-section {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 990px) {
+
+    .features-section h3 {
+        margin-bottom: 0px;
+    }
+
+    .features-section h1 {
+        font-size: 140px;
+    }
+
+    .features-section h2 {
+        margin-top: -120px;
+    }
+
+    .about-us-section .mid-sec .about-us-btn {
+        font-size: 13px;
+    }
+    
+    .cards-section #no-even {
+        width: 220px;
+    }
+    
+    .cards-section #even {
+        width: 220px;
+    }
+    
+    .cards-section .box h4 {
+        font-size: 17px;
+    }
+    
+    .cards-section .box h6 {
+        font-size: 15px;
+    }
+    
+    .cards-section .box p {
+        font-size: 13px;
+    }
+    
+    .cards-section .box .p-1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .cards-section .box .p-3 {
+        margin-bottom: 15px;
+    }
+    
+    .cards-section .box .p-4 {
+        margin-top: -25px;
+    }
+    
+    .cards-section .box .arrow-btn {
+        margin-left: 95px;
+    }
+    
+    .our-menu-section h4 {
+        font-size: 30px;
+    }
+    
+    .video-section h1 {
+        font-size: 80px;
+    }
+    
+    .blog-section .text-box a {
+        padding-left: 240px;
+    }
+    
+    .blog-section .text-box p {
+        font-size: 15px;
+    }
+    
+    .blog-section .reservation-form button {
+        margin-left: 365px;
+    }
+    
+    .blog-section .reservation-form .form-fields {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 180px;
+        margin-right: 30px;
+    }
+    
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 180px;
+    }
+    
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 115px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 115px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 115px;
+    }
+    
+    .footer-section hr {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .footer-section .info-section {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 770px) {
+    .features-section h3 {
+        margin-bottom: 0px;
+    }
+    
+    .features-section h1 {
+        font-size: 100px;
+    }
+    
+    .features-section h2 {
+        margin-top: -95px;
+    }
+
+    .about-us-section .mid-sec .about-us-btn {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+
+    .about-us-section .mid-sec p {
+        font-size: 13px;
+    }
+    
+    .about-us-section .mid-sec .about-us-btn {
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-us-section .mid-sec h3 {
+        padding-top: 120px;
+    }
+
+    .our-menu-section h4 {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .our-menu-section .menu2 {
+        margin-top: -35px;
+    }
+
+    .our-menu-section .menu3 {
+        margin-top: -35px;
+    }
+
+    .cards-section #no-even {
+        width: 170px;
+    }
+                
+    .cards-section #even {
+        width: 170px;
+    }
+                
+    .cards-section .box h4 {
+        font-size: 15px;
+    }
+                
+    .cards-section .box h6 {
+        display: none;
+    }
+                
+    .cards-section .box p {
+        font-size: 12px;
+    }
+                
+    .cards-section .box .p-1 {
+        margin-bottom: 35px;
+        margin-top: 40px;
+    }
+
+    .cards-section .box .p-2 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+                
+    .cards-section .box .p-3 {
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+                
+    .cards-section .box .p-4 {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+                
+    .cards-section .box .arrow-btn {
+        margin-left: 67px;
+    }
+
+    .video-section h1 {
+        font-size: 60px;
+        padding-bottom: 200px;
+        }
+
+    .video-section img {
+        padding-left: 70px;
+    }
+    
+    .blog-section .text-box h5 {
+        font-size: 15px;
+    }
+
+    .blog-section .text-box a {
+        padding-left: 160px;
+    }
+    
+    .blog-section .text-box p {
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px ;
+        }
+    
+    .blog-section .reservation-form button {
+        margin-left: 255px;
+        font-size: 12px;
+    }
+    
+    .blog-section .reservation-form .form-fields {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 80px;
+        margin-right: 30px;
+    }
+    
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 80px;
+    }
+    
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 50px;
+        margin-right: 30px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 50px;
+    }
+    
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 50px;
+    }
+    .footer-section .follow-us-section img {
+        margin-top: -50px;
+        width: 200px;
+    }
+
+    .footer-section hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .footer-section .info-section {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 769px) and (min-width: 550px) {
+
+    .welcome-section .reservations-btn {
+        display: none;
+    }
+
+    .welcome-section .logo-header {
+        display: none;
+    }
+
+    .welcome-section .menu {
+        font-size: 20px;
+    }
+
+    .welcome-section .hero-section h3 {
+        font-size: 50px;
+    }
+
+    .welcome-section .hero-section h1 {
+        font-size: 75px;
+    }
+
+    .welcome-section .hero-section p {
+        font-size: 18px;
+    }
+
+    .features-section h3 {
+        margin-bottom: 0px;
+    }
+        
+    .features-section h1 {
+        font-size: 80px;
+    }
+        
+    .features-section h2 {
+        margin-top: -78px;
+        font-size: 40px;
+    }
+
+    .features-section .features-img .features-1 {
+        margin-bottom: 80px;
+        width: auto;
+    }
+
+    .features-section .features-img .features-1::after {
+        content: 'Restaurant';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    .features-section .features-img .features-2 {
+        margin-bottom: 80px;
+        width: auto;
+    }
+    
+    .features-section .features-img .features-2::after {
+        content: 'Bar & Lounge';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    .features-section .features-img .features-3 {
+        margin-bottom: 80px;
+        width: auto;
+    }
+    
+    .features-section .features-img .features-3::after {
+        content: 'Events & Functions';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    .features-section .features-txt {
+        display: none;
+    }
+    
+    .about-us-section {
+        padding-top: 50px;
+    }
+
+        
+    .about-us-section .mid-sec p {
+        font-size: 20px;
+    }
+        
+    .about-us-section .mid-sec .about-us-btn {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        
+    .about-us-section .mid-sec h3 {
+        padding-top: 120px;
+    }
+
+    .our-menu-section{
+        margin-top: -100px;
+        height: 1400px;
+    }
+        
+    .our-menu-section h4 {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .our-menu-section .menu1 {
+        display: none;
+    }
+
+    .our-menu-section .menu2 {
+        margin-bottom: 70px;
+    }
+
+    .our-menu-section .menu3 {
+        margin-top: -29px;
+    }
+
+    .our-menu-section .menu4 {
+        display: none;
+    }
+
+    .our-menu-section h3 {
+        margin-bottom: -10px;
+        font-size: 30px;
+    }
+
+    .our-menu-section h4 {
+        font-size: 40px;
+    }
+
+    .cards-section{
+        padding-top: 50px;
+        height: 2500px;
+    }    
+
+    .cards-section #no-even {
+        width: auto;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+        
+    .cards-section #even {
+        width: auto;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+        
+    .cards-section .box h4 {
+        padding-top: 70px;
+        font-size: 40px;
+    }
+        
+    .cards-section .box h6 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+        
+    .cards-section .box p {
+        font-size: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        
+    .cards-section .box .p-1 {
+        margin-bottom: 35px;
+        margin-top: 40px;
+    }
+        
+    .cards-section .box .p-2 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+        
+    .cards-section .box .p-3 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+        
+    .cards-section .box .p-4 {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+        
+    .cards-section .box .arrow-btn {
+        margin-left: 400px;
+        margin-top: 40px;
+    }
+        
+    .video-section h1 {
+        font-size: 60px;
+        padding-bottom: 200px;
+    }
+        
+    .video-section img {
+        padding-left: 50px;
+        margin-top: -100px;
+    }
+
+    .video-section p {
+        margin-top: -60px;
+    }
+
+    .blog-section h2 {
+        padding-bottom: 70px;
+    }
+    
+    .blog-section .img-1 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+    }
+
+    .blog-section .img-2 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+    }
+
+    .blog-section .img-3 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+    
+    .blog-section #text-box-1{
+        margin-top: -1400px;
+    }
+
+    .blog-section #text-box-2{
+        margin-top: -800px;
+    }
+    .blog-section #text-box-3{
+        margin-top: -200px;
+    }
+
+    .blog-section .text-box h5 {
+        font-size: 20px;
+    }
+    
+    .blog-section .text-box h6 {
+        font-size: 12px;
+    }
+    
+    .blog-section .text-box a {
+        padding-left: 470px;
+    }
+
+    .blog-section .reservation-form {
+        margin-top: 50px;
+    }
+        
+    .blog-section .reservation-form button {
+        margin-left: 165px;
+        font-size: 12px;
+    }
+        
+    .blog-section .reservation-form .form-fields {
+        margin-left: 30px;
+        margin-right: 30px;
+    }     
+        
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 270px;
+    }
+        
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 270px;
+    }
+        
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 15px;
+    }
+        
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 10px;
+    }
+        
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 15px;
+    }
+        
+    .footer-section .follow-us-section img {
+        margin-top: 50px;
+        width: 200px;
+    }
+        
+    .footer-section hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+        
+    .footer-section .info-section {
+        margin-left: 50px;
+    }
+    
+    .footer-section #col-1 {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .footer-section #col-2{
+        display: inline-block;
+        width: 50%;
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 549px){
+
+    .welcome-section .reservations-btn {
+        display: none;
+    }
+
+    .welcome-section .logo-header {
+        display: none;
+    }
+
+    .welcome-section .menu {
+        font-size: 20px;
+    }
+
+    .welcome-section .menu li{
+        display: block;
+    }
+
+    .welcome-section .hero-section h3 {
+        font-size: 30px;
+    }
+
+    .welcome-section .hero-section h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .welcome-section .hero-section p {
+        font-size: 18px;
+    }
+
+    .features-section h3 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .features-section h1 {
+        font-size: 35px;
+    }
+
+    .features-section h2 {
+        margin-top: -40px;
+        font-size: 25px;
+    }
+
+    .features-section .features-img .features-1 {
+        margin-bottom: 80px;
+        width: auto;
+
+    }
+
+    .features-section .features-img .features-1::after {
+        content: 'Restaurant';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+
+    }
+
+    .features-section .features-img .features-2 {
+        margin-bottom: 80px;
+        width: auto;
+    }
+
+    .features-section .features-img .features-2::after {
+        content: 'Bar & Lounge';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    .features-section .features-img .features-3 {
+        margin-bottom: 80px;
+        width: auto;
+    }
+
+    .features-section .features-img .features-3::after {
+        content: 'Events & Functions';
+        color: #fff;
+        font-family: 'Abril Fatface';
+        font-size: 26px;
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    .features-section .features-txt {
+        display: none;
+    }
+
+    .about-us-section {
+        padding-top: 50px;
+        height: 1900px;
+    }
+
+    .about-us-section .mid-sec p {
+        font-size: 20px;
+    }
+
+    .about-us-section .mid-sec .about-us-btn {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-us-section .mid-sec h3 {
+        padding-top: 70px;
+    }
+
+    .our-menu-section {
+        height: 1400px;
+    }
+
+    .our-menu-section h4 {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .our-menu-section h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .our-menu-section h2 {
+        font-size: 25px;
+        padding-top: 120px;
+        margin-top: -175px;
+    }
+
+    .our-menu-section .menu1 {
+        display: none;
+    }
+
+    .our-menu-section .menu2 {
+        margin-bottom: 70px;
+    }
+
+    .our-menu-section .menu3 {
+        margin-top: -29px;
+    }
+
+    .our-menu-section .menu4 {
+        display: none;
+    }
+
+    .our-menu-section h3 {
+        margin-bottom: -10px;
+        font-size: 30px;
+    }
+
+    .our-menu-section h4 {
+        font-size: 40px;
+    }
+
+    .cards-section {
+        padding-top: 50px;
+        height: 2050px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cards-section #no-even {
+        width: auto;
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .cards-section #even {
+        width: auto;
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .cards-section .box h4 {
+        padding-top: 70px;
+        font-size: 30px;
+    }
+
+    .cards-section .box h6 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .cards-section .box p {
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .cards-section .box .p-1 {
+        margin-bottom: 35px;
+        margin-top: 40px;
+    }
+
+    .cards-section .box .p-2 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .cards-section .box .p-3 {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .cards-section .box .p-4 {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .cards-section .box .arrow-btn {
+        margin-left: 170px;
+        margin-top: 40px;
+    }
+
+    .video-section h1 {
+        font-size: 40px;
+        padding-bottom: 200px;
+    }
+
+    .video-section img {
+        padding-left: 30px;
+        margin-top: -80px;
+    }
+
+    .video-section p {
+        margin-top: -50px;
+    }
+
+    .blog-section h3 {
+        font-size: 25px;
+    }
+
+    .blog-section h2 {
+        padding-bottom: 70px;
+        font-size: 30px;
+    }
+
+    .blog-section .img-1 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+    }
+
+    .blog-section .img-2 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+    }
+
+    .blog-section .img-3 {
+        background-size: cover;
+        width: auto;
+        height: 380px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+
+    .blog-section #text-box-1 {
+        margin-top: -1400px;
+    }
+
+    .blog-section #text-box-2 {
+        margin-top: -800px;
+    }
+
+    .blog-section #text-box-3 {
+        margin-top: -200px;
+    }
+
+    .blog-section .text-box h5 {
+        font-size: 20px;
+    }
+
+    .blog-section .text-box h6 {
+        font-size: 12px;
+    }
+
+    .blog-section .text-box a {
+        padding-left: 250px;
+    }
+
+    .blog-section .reservation-form {
+        margin-top: 40px;
+    }
+
+    .blog-section .reservation-form button {
+        width: 180px;
+        margin: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog-section .reservation-form h3{
+        font-size: 20px;
+    }
+
+    .blog-section .reservation-form .form-fields {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 70px;
+        margin-right: 0px;
+    }
+
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 70px;
+    }
+
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 110px;
+        margin-right: 0;
+    }
+
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 130px;
+        margin-right: 0;
+    }
+
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 170px;
+        margin-right: 0;
+    }
+
+    .footer-section{
+        height: 600px;
+    }
+
+    .footer-section .follow-us-section img {
+        display: none;
+    }
+
+    .footer-section hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-section .info-section {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+    .footer-section h6{
+        font-size: 12px;
+        margin-top: -40px;
+    }
+
+    .footer-section p {
+        font-size: 8px;
+    }
+
+    .footer-section #col-1 {
+        display: inline-block;
+        width: 50%;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+
+    .footer-section #col-2 {
+        display: inline-block;
+        width: 50%;
+        text-align: end;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .blog-section .reservation-form {
+        margin-top: 40px;
+    }
+
+    .blog-section .reservation-form button {
+        width: 180px;
+        margin: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog-section .reservation-form h3 {
+        font-size: 20px;
+    }
+
+
+    .blog-section .reservation-form .form-fields {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .blog-section .reservation-form .form-fields #full-name {
+        padding-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blog-section .reservation-form .form-fields #phone-number {
+        padding-right: 10px;
+    }
+
+    .blog-section .reservation-form .form-fields #number-of-people {
+        padding-right: 50px;
+        margin-right: 0;
+    }
+
+    .blog-section .reservation-form .form-fields #pick-a-date {
+        padding-right: 70px;
+        margin-right: 0;
+    }
+
+    .blog-section .reservation-form .form-fields #pack-time {
+        padding-right: 110px;
+        margin-right: 0;
+    }
+}
